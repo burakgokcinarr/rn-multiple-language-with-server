@@ -18,8 +18,8 @@ i18n
             useSuspense: false,
         },
         backend: {
-            loadPath: 'http://localhost:5010/language?lang={{lng}}',      // Fetch via server mongodb languages 
-            // loadPath: 'http://localhost:5010/languagedb?lang={{lng}}',      // Fetch via serber languages files (tr.json, en.json vs)
+            loadPath: 'http://localhost:5010/languagedb?lang={{lng}}',      // Fetch via server mongodb languages 
+            // loadPath: 'http://localhost:5010/language?lang={{lng}}',      // Fetch via server languages files (tr.json, en.json vs)
             request: async(options, url, payload, callback) => {
                 try {
                     const response = await Axios.get(url);
