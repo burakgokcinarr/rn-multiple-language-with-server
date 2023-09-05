@@ -1,0 +1,21 @@
+{
+  "name": "multi-language",
+  "version": "1.0.0",
+  "description": "Multi Language with Server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Burak Gökçınar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
